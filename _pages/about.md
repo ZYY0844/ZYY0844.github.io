@@ -49,17 +49,17 @@ You can reach me via [email](mailto:y_zhang16@163.com), or find more information
 
 # 📝 Publications
 
-<sup>*</sup> first author. Full list on [Google Scholar](https://scholar.google.com/citations?user=hcCYfu4AAAAJ&hl=en).
+Co-author papers are listed at the end of each subsection. Full list on [Google Scholar](https://scholar.google.com/citations?user=hcCYfu4AAAAJ&hl=en).
 
 **Journal**
 
-1. <sup>*</sup>**Yuanyuan Zhang**, Haocheng Zhao, Sijie Xiong, Rui Yang, Eng Gee Lim, Yutao Yue, "From High-SNR Radar Signal to ECG: A Transfer Learning Model with Cardio-Focusing Algorithm for Scenarios with Limited Data", **IEEE Transactions on Mobile Computing**, Oct. 2025.
+1. **Yuanyuan Zhang**, Haocheng Zhao, Sijie Xiong, Rui Yang, Eng Gee Lim, Yutao Yue, "From High-SNR Radar Signal to ECG: A Transfer Learning Model with Cardio-Focusing Algorithm for Scenarios with Limited Data", **IEEE Transactions on Mobile Computing**, Oct. 2025.
 
-2. <sup>*</sup>**Yuanyuan Zhang**, Runwei Guan, Lingxiao Li, Rui Yang, Yutao Yue, Eng Gee Lim, "radarODE: An ODE-Embedded Deep Learning Model for Contactless ECG Reconstruction from Millimeter-Wave Radar", **IEEE Transactions on Mobile Computing**, Apr. 2025.
+2. **Yuanyuan Zhang**, Runwei Guan, Lingxiao Li, Rui Yang, Yutao Yue, Eng Gee Lim, "radarODE: An ODE-Embedded Deep Learning Model for Contactless ECG Reconstruction from Millimeter-Wave Radar", **IEEE Transactions on Mobile Computing**, Apr. 2025.
 
-3. <sup>*</sup>**Yuanyuan Zhang**, Rui Yang, Yutao Yue, Eng Gee Lim, "radarODE-MTL: A Multi-Task Learning Framework with Eccentric Gradient Alignment for Robust Radar-Based ECG Reconstruction", **IEEE Transactions on Instrumentation and Measurement**, Apr. 2025.
+3. **Yuanyuan Zhang**, Rui Yang, Yutao Yue, Eng Gee Lim, "radarODE-MTL: A Multi-Task Learning Framework with Eccentric Gradient Alignment for Robust Radar-Based ECG Reconstruction", **IEEE Transactions on Instrumentation and Measurement**, Apr. 2025.
 
-4. <sup>*</sup>**Yuanyuan Zhang**, Rui Yang, Yutao Yue, Eng Gee Lim, Zidong Wang, "An Overview of Algorithms for Contactless Cardiac Feature Extraction From Radar Signals: Advances and Challenges", **IEEE Transactions on Instrumentation and Measurement**, Jul. 2023.
+4. **Yuanyuan Zhang**, Rui Yang, Yutao Yue, Eng Gee Lim, Zidong Wang, "An Overview of Algorithms for Contactless Cardiac Feature Extraction From Radar Signals: Advances and Challenges", **IEEE Transactions on Instrumentation and Measurement**, Jul. 2023.
 
 5. Sijie Xiong, Cheng Tang, **Yuanyuan Zhang**, Haoling Xiong, Youhao Xu, Atsushi Shimada, "CME-Mamba with Enhancing Nonlinear Dependencies for Time Series Forecasting", **Applied Soft Computing**, Aug. 2025.
 
@@ -67,13 +67,24 @@ You can reach me via [email](mailto:y_zhang16@163.com), or find more information
 
 **Conference**
 
-1. <sup>*</sup>**Yuanyuan Zhang**, Sijie Xiong, Rui Yang, Eng Gee Lim, Yutao Yue, "Recover from Horcrux: A Spectrogram Augmentation Method for Cardiac Feature Monitoring from Radar Signal Components", *47th Annual International Conference of the IEEE Engineering in Medicine & Biology Society* (**EMBC 2025**), Jul. 2025. **(Oral, Top 7%)**
+1. **Yuanyuan Zhang**, Sijie Xiong, Rui Yang, Eng Gee Lim, Yutao Yue, "Recover from Horcrux: A Spectrogram Augmentation Method for Cardiac Feature Monitoring from Radar Signal Components", *47th Annual International Conference of the IEEE Engineering in Medicine & Biology Society* (**EMBC 2025**), Jul. 2025. **(Oral, Top 7%)**
 
 <span class='anchor' id='-projects'></span>
 
 # 💻 Projects
 
 Open-source code and data accompanying my research. See [GitHub](https://github.com/ZYY0844) for the full list.
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMC 2025</div><img src='images/projects/cft_rfcardi.png' alt="CFT-RFcardi" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[CFT-RFcardi](https://github.com/ZYY0844/CFT-RFcardi)** &nbsp; <a href="https://github.com/ZYY0844/CFT-RFcardi"><img src="https://img.shields.io/github/stars/ZYY0844/CFT-RFcardi?style=social" alt="stars"></a>
+
+A **cardio-focusing + transfer-learning** pipeline that learns ECG recovery from a small set of high-SNR radar signals and transfers to limited-data regimes. Released with a ready-to-run pre-processed dataset for quick validation.
+
+[**Paper**](https://ieeexplore.ieee.org/document/11216086) &nbsp; · &nbsp; [**Code**](https://github.com/ZYY0844/CFT-RFcardi) &nbsp; · &nbsp; [**Dataset**](https://drive.google.com/file/d/1i0lZghlh_cT6JN0vsXCl66FX0eeETEfs/view?usp=sharing)
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMC / TIM 2025</div><img src='images/projects/radarODE_MTL.jpg' alt="radarODE-MTL" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -94,17 +105,6 @@ A multi-task learning framework with **eccentric gradient alignment** for robust
 A **spectrogram-component augmentation** method for cardiac feature monitoring from radar signals. Horcrux splits a spectrogram into time-consistent components and re-combines them to enlarge effective training data, plug-and-play for any radar-spectrogram pipeline.
 
 [**Paper**](https://embc.embs.org/2025/) &nbsp; · &nbsp; [**Code**](https://github.com/ZYY0844/Horcrux)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMC 2025</div><img src='images/projects/cft_rfcardi.png' alt="CFT-RFcardi" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**[CFT-RFcardi](https://github.com/ZYY0844/CFT-RFcardi)** &nbsp; <a href="https://github.com/ZYY0844/CFT-RFcardi"><img src="https://img.shields.io/github/stars/ZYY0844/CFT-RFcardi?style=social" alt="stars"></a>
-
-A **cardio-focusing + transfer-learning** pipeline that learns ECG recovery from a small set of high-SNR radar signals and transfers to limited-data regimes. Released with a ready-to-run pre-processed dataset for quick validation.
-
-[**Paper**](https://ieeexplore.ieee.org/document/11216086) &nbsp; · &nbsp; [**Code**](https://github.com/ZYY0844/CFT-RFcardi) &nbsp; · &nbsp; [**Dataset**](https://drive.google.com/file/d/1i0lZghlh_cT6JN0vsXCl66FX0eeETEfs/view?usp=sharing)
 </div>
 </div>
 
