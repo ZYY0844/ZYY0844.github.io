@@ -41,7 +41,7 @@ You can reach me via [email](mailto:y_zhang16@163.com), or find more information
 
 - *2026.02*: &nbsp;🏆 Awarded the **[Marie Skłodowska-Curie Actions (MSCA) Postdoctoral Fellowship](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships)**, with the fellowship to commence in Summer 2027.
 - *2026.01*: &nbsp; Started as a Postdoctoral Associate at the SensorWeb Lab, University of Georgia.
-- *2025.11*: &nbsp;🎓 Successfully defended my Ph.D. thesis *"Robust Cardiac Feature Monitoring based on Millimeter-Wave Radar"*.
+- *2025.11*: &nbsp;🎓 Successfully defended my Ph.D. thesis *"[Robust Cardiac Feature Monitoring based on Millimeter-Wave Radar](https://livrepository.liverpool.ac.uk/3194297/)"*.
 - *2025.10*: &nbsp;🎉 Paper *"From High-SNR Radar Signal to ECG: A Transfer Learning Model with Cardio-Focusing Algorithm for Scenarios with Limited Data"* accepted by **IEEE Transactions on Mobile Computing**.
 - *2025.07*: &nbsp;🎙️ *Recover from Horcrux* selected for **Oral Presentation (Top 7%)** at **EMBC 2025**.
 - *2025.04*: &nbsp;🎉 *radarODE* accepted by **IEEE Transactions on Mobile Computing**, and *radarODE-MTL* accepted by **IEEE Transactions on Instrumentation and Measurement**.
@@ -139,7 +139,7 @@ A synthetic **B-scan dataset generation toolkit** for training neural networks o
 # 📖 Education
 
 - *2021.12 - 2025.11*, **Ph.D. in Electrical and Electronic Engineering**, University of Liverpool (XJTLU joint program), Suzhou, China.
-  - *Thesis:* Robust Cardiac Feature Monitoring based on Millimeter-Wave Radar.
+  - *Thesis:* [Robust Cardiac Feature Monitoring based on Millimeter-Wave Radar](https://livrepository.liverpool.ac.uk/3194297/).
   - *Advisor:* Prof. Rui Yang.
 - *2020.10 - 2021.10*, **M.Sc. in Control and Optimization (EEE)**, Imperial College London, UK. *GPA: 3.73/4.00.*
   - *Thesis:* Derivative-free Multi-objective Optimization.
