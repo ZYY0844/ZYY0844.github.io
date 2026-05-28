@@ -1,27 +1,23 @@
-
 <h1 align="center">
-AcadHomepage
+Yuanyuan Zhang &mdash; Academic Homepage
 </h1>
 
 <div align="center">
 
-[![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/forks/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/issues/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/license/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io/blob/main/LICENSE)  | [中文文档](./docs/README-zh.md) 
+🌐 <a href="https://zyy0844.github.io/">zyy0844.github.io</a> &nbsp;·&nbsp;
+📚 <a href="https://scholar.google.com/citations?user=hcCYfu4AAAAJ&hl=en">Google Scholar</a> &nbsp;·&nbsp;
+💼 <a href="https://www.linkedin.com/in/yuanyuan-16/">LinkedIn</a> &nbsp;·&nbsp;
+🆔 <a href="https://orcid.org/0000-0003-0789-2294">ORCID</a>
+
 </div>
 
-<p align="center">A Modern and Responsive Academic Personal Homepage</p>
-
 <p align="center">
-    <br>
-    <img src="docs/screenshot.png" width="100%"/>
-    <br>
+Source for the personal academic website of <strong>Yuanyuan Zhang (张源远)</strong>, a Postdoctoral Associate at the <a href="http://sensorweb.engr.uga.edu/">SensorWeb Lab</a>, University of Georgia, working with Prof. Wenzhan Song. The site presents her work on millimeter-wave radar-based contactless vital sign monitoring, robust deep learning, and time-series modelling &mdash; including publications, open-source projects, and CV.
 </p>
 
-Some examples:
-- [Demo Page](https://rayeren.github.io/acad-homepage.github.io/)
-- [Personal Homepage of the author](https://rayeren.github.io/)
+<p align="center">
+Built on the <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a> Jekyll template (a fork of <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a> / <a href="https://github.com/mmistakes/minimal-mistakes">Minimal Mistakes</a>).
+</p>
 
 ## Key Features
 - **Automatically update google scholar citations**: using the google scholar crawler and github action, this REPO can update the author citations and publication citations automatically.
