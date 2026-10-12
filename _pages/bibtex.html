@@ -12,13 +12,13 @@ author_profile: true
 <div class="bibtex-actions">
   <button type="button" class="btn" id="bibtex-copy" hidden>Copy all</button>
   <button type="button" class="btn" id="bibtex-select" hidden>Select all</button>
-  <a href="{{ '/#-publications' | relative_url }}">Back to Publications</a>
+  <a href="{{ '/#-publications' | relative_url }}" target="_self">Back to Publications</a>
 </div>
 <p id="bibtex-status" class="bibtex-status" role="status" aria-live="polite"></p>
 
 <pre class="bibtex-source" tabindex="0" aria-label="BibTeX citations"><code id="bibtex-text">{{ site.data.yuanyuan_publications.bibtex | escape }}</code></pre>
 
-<p><a href="{{ '/#-publications' | relative_url }}">Back to Publications</a></p>
+<p><a href="{{ '/#-publications' | relative_url }}" target="_self">Back to Publications</a></p>
 
 <style>
   .bibtex-actions {
