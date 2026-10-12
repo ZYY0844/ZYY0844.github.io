@@ -50,6 +50,8 @@ You can reach me via [email](mailto:y_zhang16@163.com), or find more information
 
 # 📝 Publications
 
+[BibTeX citations]({{ '/bibtex/' | relative_url }})
+
 Co-author papers are listed at the end of each subsection. Full list on [Google Scholar](https://scholar.google.com/citations?user=hcCYfu4AAAAJ&hl=en).
 
 **Journal**

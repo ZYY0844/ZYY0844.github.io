@@ -1,0 +1,109 @@
+---
+permalink: /bibtex/
+title: "BibTeX citations"
+excerpt: "BibTeX citations for Yuanyuan Zhang's publications."
+author_profile: true
+---
+
+{% capture bibtex %}{% include yuanyuan_publications.bib %}{% endcapture %}
+
+<h1>BibTeX citations</h1>
+
+<p>15 citations. Use Copy all, or select the text below to copy individual entries.</p>
+
+<div class="bibtex-actions">
+  <button type="button" class="btn" id="bibtex-copy" hidden>Copy all</button>
+  <button type="button" class="btn" id="bibtex-select" hidden>Select all</button>
+  <a href="{{ '/#-publications' | relative_url }}">Back to Publications</a>
+</div>
+<p id="bibtex-status" class="bibtex-status" role="status" aria-live="polite"></p>
+
+<pre class="bibtex-source" tabindex="0" aria-label="BibTeX citations"><code id="bibtex-text">{{ bibtex | escape }}</code></pre>
+
+<p><a href="{{ '/#-publications' | relative_url }}">Back to Publications</a></p>
+
+<style>
+  .bibtex-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5em 1em;
+  }
+  .bibtex-actions [hidden] {
+    display: none;
+  }
+  .bibtex-actions .btn {
+    margin: 0;
+  }
+  .bibtex-status {
+    min-height: 1.5em;
+    margin: 0.5em 0;
+    font-size: 0.9em;
+  }
+  .page__content .bibtex-source {
+    max-width: 100%;
+    padding: 1em;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    background: #f7f7f7;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: normal;
+    -webkit-user-select: text;
+    user-select: text;
+  }
+  .bibtex-source code {
+    padding: 0;
+    background: transparent;
+    font-size: 0.85em;
+    line-height: 1.6;
+  }
+  .bibtex-source:focus-visible,
+  .bibtex-actions .btn:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+  }
+</style>
+
+<script>
+  (function () {
+    var text = document.getElementById('bibtex-text');
+    var copyButton = document.getElementById('bibtex-copy');
+    var selectButton = document.getElementById('bibtex-select');
+    var status = document.getElementById('bibtex-status');
+
+    function selectAll() {
+      text.parentElement.focus({ preventScroll: true });
+      var range = document.createRange();
+      range.selectNodeContents(text);
+      var selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+    }
+
+    copyButton.hidden = false;
+    selectButton.hidden = false;
+
+    selectButton.addEventListener('click', function () {
+      selectAll();
+      status.textContent = "All citations selected. Use your browser's Copy command.";
+    });
+
+    copyButton.addEventListener('click', async function () {
+      copyButton.disabled = true;
+      status.textContent = '';
+      try {
+        if (!navigator.clipboard || !navigator.clipboard.writeText) {
+          throw new Error('Clipboard unavailable');
+        }
+        await navigator.clipboard.writeText(text.textContent);
+        status.textContent = 'Copied all 15 citations.';
+      } catch (error) {
+        selectAll();
+        status.textContent = "Copy unavailable. All citations selected; use your browser's Copy command.";
+      } finally {
+        copyButton.disabled = false;
+      }
+    });
+  }());
+</script>
