@@ -5,8 +5,6 @@ excerpt: "BibTeX citations for Yuanyuan Zhang's publications."
 author_profile: true
 ---
 
-{% capture bibtex %}{% include yuanyuan_publications.bib %}{% endcapture %}
-
 <h1>BibTeX citations</h1>
 
 <p>15 citations. Use Copy all, or select the text below to copy individual entries.</p>
@@ -18,7 +16,7 @@ author_profile: true
 </div>
 <p id="bibtex-status" class="bibtex-status" role="status" aria-live="polite"></p>
 
-<pre class="bibtex-source" tabindex="0" aria-label="BibTeX citations"><code id="bibtex-text">{{ bibtex | escape }}</code></pre>
+<pre class="bibtex-source" tabindex="0" aria-label="BibTeX citations"><code id="bibtex-text">{{ site.data.yuanyuan_publications.bibtex | escape }}</code></pre>
 
 <p><a href="{{ '/#-publications' | relative_url }}">Back to Publications</a></p>
 
