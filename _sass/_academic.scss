@@ -1,6 +1,17 @@
 $academic-blue: #214c8c;
 $academic-rule: #d9e1e9;
 
+.home-page {
+  #main, .academic-header {
+    padding-inline: .5rem;
+    // Halfway between the theme's container width and the full viewport.
+    max-width: calc(50% + #{$large / 2});
+    @include breakpoint($x-large) {
+      max-width: calc(50% + #{$x-large / 2});
+    }
+  }
+}
+
 .academic-header {
   display: flex;
   align-items: center;
@@ -35,7 +46,7 @@ $academic-rule: #d9e1e9;
   h3 { margin: 1.1em 0 .35em; color: $academic-blue; }
   a { color: $academic-blue; text-decoration: none; }
   a:hover, a:focus-visible { text-decoration: underline; }
-  h2[id], h3[id] { scroll-margin-top: 7rem; }
+  h2[id], h3[id], #interests, summary[id] { scroll-margin-top: 7rem; }
   p { margin-bottom: .8em; }
   .research-themes {
     border-left: 3px solid #adc5df;
