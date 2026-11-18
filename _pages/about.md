@@ -8,9 +8,9 @@ redirect_from:
 
 # Yuanyuan Zhang {#profile}
 
-I am **Yuanyuan Zhang (张源远)**, a Postdoctoral Associate at the [SensorWeb Lab](http://sensorweb.engr.uga.edu/), University of Georgia, working with Prof. Wenzhan Song. I received my Ph.D. degree in Electrical and Electronic Engineering from the [University of Liverpool](https://www.liverpool.ac.uk/) (XJTLU joint program, Suzhou) in November 2025, advised by Prof. Rui Yang. Before that, I obtained my M.Sc. in Control and Optimization from [Imperial College London](https://www.imperial.ac.uk/) under the supervision of Prof. Eric C. Kerrigan, and my B.Eng. (First-Class Honours) in Electrical and Electronic Engineering, also from the University of Liverpool. <span id="interests">Outside research, I enjoy swimming, playing fingerstyle guitar, and listening to classical music.</span>
+I am **Yuanyuan Zhang (张源远)**, a Postdoctoral Associate at the [SensorWeb Lab](http://sensorweb.engr.uga.edu/), University of Georgia, working with Prof. Wenzhan Song. I received my Ph.D. degree in Electrical and Electronic Engineering from the [University of Liverpool](https://www.liverpool.ac.uk/) in November 2025, advised by Prof. Rui Yang. Before that, I obtained my M.Sc. in Control and Optimization from [Imperial College London](https://www.imperial.ac.uk/) under the supervision of Prof. Eric C. Kerrigan, and my B.Eng. (First-Class Honours) in Electrical and Electronic Engineering, also from the University of Liverpool.
 
-My primary research focus is **Physical AI for Health**. I combine deep learning with physical models of how the body generates signals and how sensors measure them. I study how these models can recover cardiovascular information from radar reflections and bed vibrations, even when motion distorts the measurements or paired training data are scarce.
+My primary research focus is **Physical AI for Health**. I combine deep learning with physical models of how the body generates signals and how sensors measure them. I study how these models can recover cardiovascular information from radar reflections and bed vibrations, even when motion distorts the measurements or paired training data are scarce. <span id="interests">Outside research, I enjoy swimming, playing fingerstyle guitar, and listening to classical music.</span>
 
 [Curriculum Vitae]({{ '/files/Yuanyuan_Zhang_CV.pdf' | relative_url }}) · [Google Scholar](https://scholar.google.com/citations?user=hcCYfu4AAAAJ&hl=en) · [Publications]({{ '/publications/' | relative_url }}) · [Interests](#interests)
 
@@ -40,7 +40,7 @@ My collaborators and I study how state-space models capture temporal dependencie
 
 <h2 id="-education">Education</h2>
 
-- *2021.12 - 2025.11*, **Ph.D. in Electrical and Electronic Engineering**, University of Liverpool (XJTLU joint program), Suzhou, China.
+- *2021.12 - 2025.11*, **Ph.D. in Electrical and Electronic Engineering**, University of Liverpool (XJTLU), Suzhou, China.
   - *Thesis:* [Robust Cardiac Feature Monitoring based on Millimeter-Wave Radar](https://livrepository.liverpool.ac.uk/3194297/).
   - *Advisor:* Prof. Rui Yang.
 - *2020.10 - 2021.10*, **M.Sc. in Control and Optimization (EEE)**, Imperial College London, UK.
@@ -70,8 +70,7 @@ My collaborators and I study how state-space models capture temporal dependencie
 
 </div>
 
-<details class="background" markdown="1">
-<summary id="-experience">Experience</summary>
+<h2 id="-experience">Experience</h2>
 
 - *2026.01 - Present*, **Postdoctoral Associate**, SensorWeb Lab, University of Georgia, USA. *Advisor:* Prof. Wenzhan Song.
 - *2024.07 - 2025.03*, **Research Assistant**, HKUST (Guangzhou), China. *Advisor:* Prof. Yutao Yue.
@@ -82,8 +81,6 @@ My collaborators and I study how state-space models capture temporal dependencie
   - Project: Next-generation radar–camera fusion for transportation with metamaterial and epistemic uncertainty.
 - *2019.06 - 2019.08*, **Research Intern**, NARI Group Corporation, Nanjing, China.
   - Communications system engineer; validated the PCS-9882 multi-port Ethernet switch (BERT, RFC 2544, multi-stream UDP).
-
-</details>
 
 ## Collaborators
 
@@ -108,9 +105,4 @@ My collaborators and I study how state-space models capture temporal dependencie
     '#-service-and-skills': "{{ '/service/' | relative_url }}"
   };
   if (formerSections[location.hash]) location.replace(formerSections[location.hash]);
-  if (location.hash === '#-experience') {
-    const heading = document.getElementById(location.hash.slice(1));
-    heading.closest('details').open = true;
-    heading.scrollIntoView();
-  }
 </script>
