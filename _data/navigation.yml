@@ -1,25 +1,15 @@
-# main links
 main:
   - title: "About"
-    url: "/#about-me"
-
-  - title: "News"
-    url: "/#-news"
-
+    url: "/"
+  - title: "Research"
+    url: "/research/"
   - title: "Publications"
-    url: "/#-publications"
-
-  - title: "Projects"
-    url: "/#-projects"
-
-  - title: "Experience"
-    url: "/#-experience"
-
-  - title: "Education"
-    url: "/#-education"
-
-  - title: "Service & Skills"
-    url: "/#-service-and-skills"
-
-  - title: "CV"
-    url: "/files/Yuanyuan_Zhang_CV.pdf"
+    url: "/publications/"
+  - title: "Awards"
+    url: "/awards/"
+  - title: "Service"
+    url: "/service/"
+  - title: "Teaching"
+    url: "/teaching/"
+  - title: "Lab"
+    url: "/lab/"
